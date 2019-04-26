@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>肖枫个人网站</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<style>
+		*{
+			padding: 0;
+			margin:0;
+		}
+		html{
+			overflow-x:hidden;overflow-y:auto;
+		}
+		body{
+			width: 100%;
+			height: 665px;
+			margin:0 auto;
+			top: -15px;
+		}
+		.box{
+			width: 100%;
+			height: 665px;
+			background:url(images/shouye.html1.jpg);
+			background-size: 100% 665px;
+		}
+		.box-1{
+			width:900px;
+			height: 600px;
+			/*border: 1px solid red;*/
+			margin:0 auto;
+			position: relative;
+		}
+		.touxiao{
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			border-radius: 50%;
+			left: 47%;
+			top:15%;
+			border:3px double skyblue;
+			background:url(images/1.jpg);
+			background-size: 100% 100%;
+		}
+		.firstbox{
+			width: 450px;
+			height: 240px;
+			background-color: rgba(151,157,143,0.4);
+			position: absolute;
+			left: 28%;
+			top: 34%;
+		}
+		.twobox{
+			width: 400px;
+			height: 80px;
+			border-bottom: 2px solid white;
+			margin:0 auto;
+			line-height: 40px;
+			z-index: 100;
+		}
+		.twobox p:nth-child(1){
+			color:rgb(255,255,255);
+			font-size: 22px;
+			text-align: center;
+			margin-top: 15px;
+			z-index: 100;
+			cursor: pointer;
+		}
+		.twobox p:nth-child(2){
+			font-size: 17px;
+			color:black;
+			text-align: center;
+		}
+		.threebox{
+			width: 400px;
+			height: 100px; 
+			/*border-bottom: 2px solid white;*/
+			margin:0 auto;
+		}
+		.start{
+			width: 200px;
+			height: 30px;
+			border: 1px solid white;
+			margin:40px auto;
+			border-radius: 10px;
+			transition: all 1s ease 0s;
+		}
+		.start:hover{
+			transform: rotateY(360deg);
+			background-color:gray;
+			width: 220px;
+			height: 35px;
+		}
+		.start p{
+			text-align:center;
+		}
+		.start p a{
+			line-height: 30px;
+			color: white;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box-1">
+			<div class="touxiao animated rubberBand"></div>
+			<div class="firstbox animated zoomInDown">
+				<div class="twobox">
+					<p>我是肖枫</p>
+					<p>Welcome to my website.</p>
+				</div>
+				<div class="threebox">
+					<div class="start">
+						<p><a href="xiangqing.html">>>点击进入我的世界<<</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
